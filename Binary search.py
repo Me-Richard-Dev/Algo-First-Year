@@ -12,7 +12,7 @@ def binarysearch(items,x):
         if items[mid]==x:
             return mid+1
 
-        #print(items[mid])
+        print(items[mid])
 
         if items[mid]<x:
             start = mid + 1
